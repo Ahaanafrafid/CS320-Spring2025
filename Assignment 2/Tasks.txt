@@ -1,0 +1,40 @@
+Assignment Summary: Integrating xUnit and Enabling Layer Communication
+Objective:
+To enhance the functionality, structure, and design of the MyCookBook project by:
+
+Organizing the project workspace.
+Adding automated testing using xUnit.
+Connecting the front-end (MVC) and back-end (API) layers dynamically.
+Styling the application using Bootstrap for a modern UI.
+Writing and organizing static tests for the Recipe model in both layers.
+Steps Completed:
+1. Organized the Project Workspace:
+Created a structured project directory with separate folders for:
+API project (MyCookBookApi)
+Front-end MVC project (MyCookBookApp)
+Corresponding test projects for both layers (MyCookBookApi.Tests, MyCookBookApp.Tests).
+Added solution files to manage the projects and dependencies.
+Ensured everything compiled successfully.
+2. Integrated xUnit Testing Framework:
+Set up xUnit as the testing framework for both test projects.
+Configured references between the main projects and their test projects.
+Verified the setup by running the default xUnit tests.
+3. Connected Front-End and Back-End Layers:
+Created a Recipe model to represent recipes in both the API and MVC layers.
+Built an API endpoint (/api/recipe) to serve recipe data dynamically.
+Created a service in the MVC project to fetch data from the API using HttpClient.
+Passed the fetched data from the controller to the view and displayed it dynamically on the recipe page.
+4. Styled the Application with Bootstrap:
+Added Bootstrap to the front-end project for styling.
+Enhanced the homepage and recipe list page with responsive layouts using Bootstrap components like grids, cards, and utility classes.
+Verified the pages for a visually appealing and modern design.
+5. Added Static Tests for the Recipe Model:
+Wrote unit tests to validate the functionality of the Recipe model in both layers.
+Verified that the model correctly stores and retrieves data.
+Organized the tests for scalability and clarity by creating separate test files (RecipeModelTests.cs).
+Ensured all tests passed successfully.
+Outcome:
+A clean, structured, and responsive MyCookBook project with:
+Dynamic communication between the API and MVC layers.
+Automated testing for the Recipe model.
+A polished, user-friendly interface using Bootstrap.
