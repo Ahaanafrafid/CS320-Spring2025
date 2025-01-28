@@ -1,0 +1,17 @@
+In this assignment, we enhanced the MyCookBook application by implementing a search functionality that allows users to filter recipes by name. This involved both backend and frontend development to provide a seamless experience.
+
+Key Accomplishments:
+Backend Enhancements:
+
+Designed a new API endpoint (HttpGet or HttpPost) in the service layer to handle search queries.
+Implemented filtering logic using a static list of recipes to simulate a database.
+Tested the API with Postman to ensure accuracy and reliability.
+Frontend Integration:
+
+Added a search bar to the Index.cshtml view, enabling users to input their queries.
+Displayed filtered recipes dynamically, ensuring real-time feedback for the search functionality.
+Retained existing recipe display logic while integrating the new feature.
+Collaboration Between Layers:
+
+Connected the UI to the API via a service method that processed search requests and returned results.
+Ensured consistent data flow from the API to the frontend, reflecting changes instantly.
